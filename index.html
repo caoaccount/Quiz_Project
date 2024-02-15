@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Responsive Quiz Web Application">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Al Nahian">
+    <meta name="url" content="https://alnahian.xyz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font API -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet Source -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Disney Quiz!</title>
+
+</head>
+
+<body>
+    <!-- Default unchecked -->
+    <div class="container">
+        <div class="centered">
+            <div class="welcome-message">
+                <h1>Disney Trivia!</h1>
+                <p>Put your knowledge to the test! Click "Start" to begin.</p>
+            </div>
+            <div id="question-container" class="hide">
+                <div id="question">Question</div>
+                <div id="answer-buttons" class="btn-grid">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="start-btn" class="start-btn btn">Start</button>
+                <button id="next-btn" class="next-btn btn hide">Next</button>
+            </div>
+        </div>
+    </div>
+   
+    <!-- Main JavaScript Source -->
+    <script src="app.js"></script>
+    </script>
+</body>
+
+</html>
